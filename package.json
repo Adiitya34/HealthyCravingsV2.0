@@ -1,0 +1,35 @@
+{
+  "name": "mernssn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js",
+    "start": "node server.js",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm start\" \"npm run client\""
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "@mui/lab": "^5.0.0-alpha.129",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "colors": "^1.4.0",
+    "concurrently": "^8.0.1",
+    "cookie": "^0.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "framer-motion": "^10.12.16",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^4.8.0",
+    "react-toastify": "^9.1.3"
+  }
+}
